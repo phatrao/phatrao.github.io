@@ -79,8 +79,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "ยินดีต้อนรับ \U0001F44B"
+    Content: "สวัสดีครับ ผมชื่อ พัด บล็อกนี้ ผมจะมาแบ่งปันความรู้ ประสบการณ์ และเคล็ดลับต่าง ๆ ที่ผมได้เรียนรู้มาจากการเป็นโปรแกรมเมอร์ครับ"
 
   # socialIcons:
   #   - name: x
