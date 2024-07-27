@@ -1,5 +1,5 @@
 ---
-author: ["Hugo Authors", "PaperMod Contributors"]
+author: ["Pat"]
 title: "วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux"
 summary: "บทความนี้ อธิบายวิธีการติดตั้งและการใช้งานคำสั่ง sudo"
 date: "2024-07-27"
