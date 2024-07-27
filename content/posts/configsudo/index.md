@@ -3,7 +3,7 @@ author: ["Hugo Authors", "PaperMod Contributors"]
 title: "วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux"
 summary: "บทความนี้ อธิบายวิธีการติดตั้งและการใช้งานคำสั่ง sudo"
 date: "2024-07-27"
-time: "11:07"
+time: "23:07"
 description: ""
 tags: ["linux"]
 weight: 1
@@ -15,7 +15,7 @@ weight: 1
 
 1. Gain สิทธิ์ root โดยใช้คำสั่ง <kbd>su -</kbd> 
 2. อัปเดตแพ็คเกจให้เป็นเวอร์ชั่นล่าสุด
- 
+
 ```shell 
 apt update && apt upgrade 
 ```
