@@ -11,14 +11,16 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://phatrao.github.io/index.xml" rel="self" type="application/rss+xml" />
+
+    
     <item>
-      <title>Install / Update PaperMod</title>
-      <link>https://phatrao.github.io/posts/papermod/papermod-installation/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/posts/papermod/papermod-installation/</guid>
-      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
+      <title>How to configure sudo on Debian Linux</title>
+      <link>https://phatrao.github.io/posts/configsudo/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://phatrao.github.io/posts/configsudo/</guid>
+      <description>How to configure sudo on Debian Linux</description>
     </item>
     <item>
       <title>Features / Mods</title>
@@ -28,17 +30,24 @@
       <description>Learn About All Features in PaperMod</description>
     </item>
     <item>
-      <title>Markdown Syntax Guide For L2</title>
-      <link>https://phatrao.github.io/posts/markdown-syntax.fr/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/posts/markdown-syntax.fr/</guid>
-      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+      <title>Install / Update PaperMod</title>
+      <link>https://phatrao.github.io/posts/papermod/papermod-installation/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>https://phatrao.github.io/posts/papermod/papermod-installation/</guid>
+      <description>Read aboout Install and Update instructions and sampled configuration templates</description>
     </item>
     <item>
       <title>Markdown Syntax Guide For RTL</title>
       <link>https://phatrao.github.io/posts/markdown-syntax.fa/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://phatrao.github.io/posts/markdown-syntax.fa/</guid>
+      <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
+    </item>
+    <item>
+      <title>Markdown Syntax Guide For L2</title>
+      <link>https://phatrao.github.io/posts/markdown-syntax.fr/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://phatrao.github.io/posts/markdown-syntax.fr/</guid>
       <description>Sample article showcasing basic Markdown syntax and formatting for HTML elements.</description>
     </item>
     <item>
@@ -81,8 +90,10 @@
       <link>https://phatrao.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://phatrao.github.io/about/</guid>
-      <description> สวัสดีครับ ผม พัด ยินดีที่ได้รู้จักทุกคนครับ
-&lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt; Email phattara.ra@gmail.com </description>
+      <description> สวัสดีครับ ผมชื่อ พัด ยินดีที่ได้รู้จักทุกคนครับ
+บล็อกนี้ผมตั้งใจที่จะใช้เป็นพื้นที่ในการแบ่งปันความรู้ เทคนิค และประสบการณ์ที่ผมได้พบเจอในสายงานโปรแกรมเมอร์ ไม่ว่าจะเป็นการเขียนโค้ด หรือการใช้เครื่องมือต่างๆ ที่ช่วยให้การพัฒนาแอปพลิเคชันเป็นไปอย่างราบรื่น
+ขอบคุณที่เข้ามาอ่านครับ!
+ช่องทางการติดต่อ &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt; Email Github phattara.ra@gmail.com https://github.com/phatrao/ </description>
     </item>
   </channel>
 </rss>

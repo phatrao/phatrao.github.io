@@ -13,6 +13,7 @@ window.onload = function () {
         if (xhr.readyState === 4) {
             if (xhr.status === 200) {
                 let data = JSON.parse(xhr.responseText);
+                // console.log(data)
                 if (data) {
                     // fuse.js options; check fuse.js website for details
                     let options = {

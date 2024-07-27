@@ -1,7 +1,7 @@
 ---
 author: "Hugo Authors"
 title: "Markdown Syntax Guide For RTL"
-date: "2019-03-11"
+date: "2019-03-12"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 FAtags: ["markdown", "css", "html", "themes"]
 FAcategories: ["themes", "syntax"]
