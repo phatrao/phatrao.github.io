@@ -13,13 +13,13 @@ weight: 1
 
 ## ขั้นตอนการติดตั้ง sudo บน Debian Linux
 
-1. Gain สิทธิ์ root โดยใช้คำสั่ง <kbd>su -</kbd> 
+1. Gain สิทธิ์ root โดยใช้คำสั่ง `su -`
 2. อัปเดตแพ็คเกจให้เป็นเวอร์ชั่นล่าสุด
 
 ```shell 
 apt update && apt upgrade 
 ```
-3. ติดตั้ง sudo โดยใช้คำสั่ง <kbd>apt</kbd>  หรือ <kbd>apt-get</kbd>  
+3. ติดตั้ง sudo โดยใช้คำสั่ง `apt`  หรือ `apt-get`
 
 ```shell
 apt install sudo
@@ -32,7 +32,7 @@ apt install sudo
 > /etc/sudoers
 
 
-วิธีที่ดีที่สุดและปลอดภัยในการแก้ไขไฟล์ `/etc/sudoers` คือการใช้คำสั่ง <kbd>visudo</kbd>
+วิธีที่ดีที่สุดและปลอดภัยในการแก้ไขไฟล์ `/etc/sudoers` คือการใช้คำสั่ง `visudo`
 
 ```shell
 visudo -f /etc/sudoers.d/newuser
