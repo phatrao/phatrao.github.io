@@ -35,7 +35,7 @@ apt install sudo
 วิธีที่ดีที่สุดและปลอดภัยในการแก้ไขไฟล์ `/etc/sudoers` คือการใช้คำสั่ง `visudo`
 
 ```shell
-visudo -f /etc/sudoers.d/newuser
+visudo -f /etc/sudoers
 ```
 
 จากนั้น เพิ่มผู้ใช้งานที่ต้องการให้สามารถใช้คำสั่ง sudo ได้ลงในไฟล์ที่สร้าง ด้วยคำสั่งนี้:
