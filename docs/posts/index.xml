@@ -16,11 +16,11 @@
 
     
     <item>
-      <title>How to configure sudo on Debian Linux</title>
+      <title>วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux</title>
       <link>https://phatrao.github.io/posts/configsudo/</link>
       <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://phatrao.github.io/posts/configsudo/</guid>
-      <description>How to configure sudo on Debian Linux</description>
+      <description>บทความนี้ อธิบายวิธีการติดตั้งและการใช้งานคำสั่ง sudo</description>
     </item>
     <item>
       <title>Markdown Syntax Guide For RTL</title>

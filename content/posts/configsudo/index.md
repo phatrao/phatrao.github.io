@@ -1,9 +1,63 @@
 ---
 author: ["Hugo Authors", "PaperMod Contributors"]
-title: "How to configure sudo on Debian Linux"
-date: 2024-07-27
-time: "15:11"
-description: "How to configure sudo on Debian Linux"
+title: "วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux"
+summary: "บทความนี้ อธิบายวิธีการติดตั้งและการใช้งานคำสั่ง sudo"
+date: "2024-07-27"
+time: "11:07"
+description: ""
 tags: ["linux"]
 weight: 1
 ---
+
+บทความนี้ จะอธิบายวิธีการติดตั้งและ การใช้งานคำสั่ง sudo บน Debian
+
+## ขั้นตอนการติดตั้ง sudo บน Debian Linux
+
+1. Gain สิทธิ์ root โดยใช้คำสั่ง <kbd>su -</kbd> 
+2. อัปเดตแพ็คเกจให้เป็นเวอร์ชั่นล่าสุด
+ 
+```shell 
+apt update && apt upgrade 
+```
+3. ติดตั้ง sudo โดยใช้คำสั่ง <kbd>apt</kbd>  หรือ <kbd>apt-get</kbd>  
+
+```shell
+apt install sudo
+```
+
+## การแก้ไขไฟล์ /etc/sudoers
+
+การแก้ไขสิทธิ์การใช้งาน sudo เราจะแก้ไขที่ไฟล์ `/etc/sudoers` และระบบจะตรวจสอบว่าผู้ใช้งานมีสิทธิใช้คำสั่ง sudo หรือไม่ในไดเร็กทอรี `/etc/sudoers.d/`
+
+> /etc/sudoers
+
+
+วิธีที่ดีที่สุดและปลอดภัยในการแก้ไขไฟล์ `/etc/sudoers` คือการใช้คำสั่ง <kbd>visudo</kbd>
+
+```shell
+visudo -f /etc/sudoers.d/newuser
+```
+
+จากนั้น เพิ่มผู้ใช้งานที่ต้องการให้สามารถใช้คำสั่ง sudo ได้ลงในไฟล์ที่สร้าง ด้วยคำสั่งนี้:
+
+```shell
+newuser ALL=(ALL) ALL
+```
+
+แล้วบันทึกและออกจากโปรแกรมแก้ไข คำสั่งข้างบน จะให้ newuser สามารถเรียกใช้คำสั่งใดๆ (ALL) ในฐานะผู้ใช้ใดๆ (ALL) บนโฮสต์ใดๆ (ALL) พร้อมสิทธิ์การดูแลระบบเต็มรูปแบบโดยใช้ `sudo`
+
+![screen1](./screen1.jpg)
+
+## การทดสอบ
+
+หากต้องการทดสอบ ให้เข้าสู่ระบบและพิมพ์คำสั่งที่ต้องมีสิทธิ์ระดับรูทโดยใช้ `sudo` ตัวอย่างเช่น:
+
+```shell
+sudo ls /root
+```
+
+หากการกำหนดค่าถูกต้อง newuser จะสามารถใช้งาน sudo ได้ และ execute โดยไม่มี Error 
+
+## บทสรุป
+
+ในบทความนี้ จะได้ความเข้าใจพื้นฐานเกี่ยวกับวิธีการอ่านและแก้ไขไฟล์ sudoers และเข้าใจถึงขั้นตอนและวิธีการต่างๆ ในการเพิ่ม user เพื่อให้สิทธิ์ root ได้แล้ว
