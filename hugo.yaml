@@ -26,7 +26,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   # author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["./assets/images/papermod-cover.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -99,10 +99,11 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
-    linkFullImages: true
+   linkFullImages: true
+   # hidden: true # hide everywhere but not in structured data
+   # hiddenInList: true # hide on list pages and home
+   # hiddenInSingle: true # hide on single page
+   
 
   # editPost:
   #   URL: "http://localhost:1313/"
