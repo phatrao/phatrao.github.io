@@ -26,7 +26,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   # author: Me
   # author: ["Me", "You"] # multiple authors
-  images: ["./assets/images/papermod-cover.png"]
+  images: ["./papermod-cover.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -100,9 +100,9 @@ params:
 
   cover:
    linkFullImages: true
-   # hidden: true # hide everywhere but not in structured data
-   # hiddenInList: true # hide on list pages and home
-   # hiddenInSingle: true # hide on single page
+   hidden: true # hide everywhere but not in structured data
+   hiddenInList: true # hide on list pages and home
+   hiddenInSingle: true # hide on single page
    
 
   # editPost:

@@ -6,8 +6,8 @@
     <description>Recent content in Linux on Pat Dev Blog</description>
     <image>
       <title>Pat Dev Blog</title>
-      <url>http://localhost:1313/assets/images/papermod-cover.png</url>
-      <link>http://localhost:1313/assets/images/papermod-cover.png</link>
+      <url>http://localhost:1313/papermod-cover.png</url>
+      <link>http://localhost:1313/papermod-cover.png</link>
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
