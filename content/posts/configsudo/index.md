@@ -7,6 +7,9 @@ time: "23:07"
 description: ""
 tags: ["linux"]
 weight: 1
+cover:
+  image: ./screen1.jpg
+  caption: "sudo Linux"
 ---
 
 บทความนี้ จะอธิบายวิธีการติดตั้งและ การใช้งานคำสั่ง sudo บน Debian
