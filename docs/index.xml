@@ -11,10 +11,17 @@
     </image>
     <generator>Hugo -- 0.129.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://phatrao.github.io/index.xml" rel="self" type="application/rss+xml" />
 
     
+    <item>
+      <title>วิธีสร้าง bootable USB drive Windows 11 โดยใช้ Rufus</title>
+      <link>https://phatrao.github.io/posts/createbootable/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://phatrao.github.io/posts/createbootable/</guid>
+      <description>บูท Windows 11 โดยใช้ไฟล์ ISO</description>
+    </item>
     <item>
       <title>วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux</title>
       <link>https://phatrao.github.io/posts/configsudo/</link>
