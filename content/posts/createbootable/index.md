@@ -8,7 +8,7 @@ description: ""
 tags: ["windows"]
 weight: 1
 cover:
-  image: ./screen1.jpg
+  image: https://phatrao.github.io/posts/createbootable/screen1.jpg
   caption: "How to Create bootable USB drive Windows 11"
 ---
 

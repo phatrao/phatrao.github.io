@@ -8,7 +8,7 @@ description: ""
 tags: ["linux"]
 weight: 1
 cover:
-  image: ./screen1.jpg
+  image: https://phatrao.github.io/posts/configsudo/screen1.jpg
   caption: "sudo Linux"
 ---
 
