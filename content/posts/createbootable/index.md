@@ -8,8 +8,10 @@ description: ""
 tags: ["windows"]
 weight: 1
 cover:
-  image: https://phatrao.github.io/posts/createbootable/screen1.jpg
-  caption: "How to Create bootable USB drive Windows 11"
+  image: "./screen1.jpg"
+  alt: "How to Create bootable USB drive Windows 11"
+  caption: ""
+  relative: false
 ---
 
 Rufus คือโปรแกรมที่ช่วยฟอร์แมทและสร้าง USB แฟลชไดรฟ์ที่สามารถบูทได้ เช่นคีย์ USB / pendrives, Memory Sticks, ฯลฯ

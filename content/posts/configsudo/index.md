@@ -8,8 +8,10 @@ description: ""
 tags: ["linux"]
 weight: 1
 cover:
-  image: https://phatrao.github.io/posts/configsudo/screen1.jpg
-  caption: "sudo Linux"
+  image: "./screen1.jpg"
+  alt: "sudo Linux"
+  caption: ""
+  relative: false
 ---
 
 บทความนี้ จะอธิบายวิธีการติดตั้งและ การใช้งานคำสั่ง sudo บน Debian
