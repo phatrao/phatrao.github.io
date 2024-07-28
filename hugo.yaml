@@ -92,11 +92,11 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "phatrao.github.io"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "phatrao.github.io"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "phatrao.github.io"
 
   cover:
    linkFullImages: true
