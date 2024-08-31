@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Java on Pat Dev Blog</title>
+    <link>https://phatrao.github.io/tags/java/</link>
+    <description>Recent content in Java on Pat Dev Blog</description>
+    <image>
+      <title>Pat Dev Blog</title>
+      <url>https://phatrao.github.io/papermod-cover.png</url>
+      <link>https://phatrao.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.129.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://phatrao.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+
+    
+    <item>
+      <title>Send Mail in Java using SMTP</title>
+      <link>https://phatrao.github.io/posts/javamail20240831/</link>
+      <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://phatrao.github.io/posts/javamail20240831/</guid>
+      <description>ส่งอีเมลโดยใช้ JavaMail</description>
+    </item>
+  </channel>
+</rss>
