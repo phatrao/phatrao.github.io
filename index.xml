@@ -2,49 +2,56 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Pat Dev Blog</title>
-    <link>https://phatrao.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Pat Dev Blog</description>
     <image>
       <title>Pat Dev Blog</title>
-      <url>https://phatrao.github.io/papermod-cover.png</url>
-      <link>https://phatrao.github.io/papermod-cover.png</link>
+      <url>http://localhost:1313/papermod-cover.png</url>
+      <link>http://localhost:1313/papermod-cover.png</link>
     </image>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://phatrao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 
     
     <item>
+      <title>สร้าง VM Alpine Linux โดยใช้โปรแกรม QEMU</title>
+      <link>http://localhost:1313/posts/qemu20241208/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/qemu20241208/</guid>
+      <description>วิธีใช้โปรแกรม QEMU</description>
+    </item>
+    <item>
       <title>Send Mail in Java using SMTP</title>
-      <link>https://phatrao.github.io/posts/javamail20240831/</link>
+      <link>http://localhost:1313/posts/javamail20240831/</link>
       <pubDate>Sat, 31 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/posts/javamail20240831/</guid>
+      <guid>http://localhost:1313/posts/javamail20240831/</guid>
       <description>ส่งอีเมลโดยใช้ JavaMail</description>
     </item>
     <item>
       <title>วิธีสร้าง bootable USB drive Windows 11 โดยใช้ Rufus</title>
-      <link>https://phatrao.github.io/posts/createbootable/</link>
+      <link>http://localhost:1313/posts/createbootable/</link>
       <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/posts/createbootable/</guid>
+      <guid>http://localhost:1313/posts/createbootable/</guid>
       <description>บูท Windows 11 โดยใช้ไฟล์ ISO</description>
     </item>
     <item>
       <title>วิธีการติดตั้งและใช้งาน sudo บนระบบปฏิบัติการ Debian Linux</title>
-      <link>https://phatrao.github.io/posts/configsudo/</link>
+      <link>http://localhost:1313/posts/configsudo/</link>
       <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/posts/configsudo/</guid>
+      <guid>http://localhost:1313/posts/configsudo/</guid>
       <description>บทความนี้ อธิบายวิธีการติดตั้งและการใช้งานคำสั่ง sudo</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://phatrao.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://phatrao.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>เกี่ยวกับฉัน สวัสดีครับ ผมชื่อ พัด ยินดีที่ได้รู้จักทุกคนครับ
 บล็อกนี้ผมตั้งใจที่จะใช้เป็นพื้นที่ในการแบ่งปันความรู้ เทคนิค และประสบการณ์ที่ผมได้พบเจอในสายงานโปรแกรมเมอร์ ไม่ว่าจะเป็นการเขียนโค้ด หรือการใช้เครื่องมือต่างๆ ที่ช่วยให้การพัฒนาแอปพลิเคชันให้ง่ายขึ้น
 ขอบคุณที่เข้ามาอ่านครับ!
-ช่องทางการติดต่อ &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt;Email Github phattara.ra@gmail.com https://github.com/phatrao/ </description>
+ช่องทางการติดต่อ &lt;?xml version=&#34;1.0&#34; encoding=&#34;utf-8&#34;?&gt; Email Github phattara.ra@gmail.com https://github.com/phatrao/ </description>
     </item>
   </channel>
 </rss>
